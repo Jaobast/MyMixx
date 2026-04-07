@@ -1,0 +1,79 @@
+{
+  "basis": [
+    { "name": "Haferflocken","price": 0.50, "amount": 80, "liquid": false, "img": "/MyMixx/img/product/basis/01.png" },
+    { "name": "Dinkelflocken", "price": 0.80, "amount": 70, "liquid": false, "img": "/MyMixx/img/product/basis/02.png" },
+    { "name": "Quinoaflocken", "price": 1.50, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/basis/03.png" },
+    { "name": "Buchweizenflocken", "price": 1.40, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/basis/04.png" },
+    { "name": "Hirseflocken", "price": 1.27, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/basis/05.png" },
+    { "name": "Reisflocken", "price": 1.30, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/basis/06.png" },
+    { "name": "Maisgrieß", "price": 0.60, "amount": 80, "liquid": false, "img": "/MyMixx/img/product/basis/07.png" },
+    { "name": "Haferschrot", "price": 0.70, "amount": 70, "liquid": false, "img": "/MyMixx/img/product/basis/08.png" },
+    { "name": "Gerstenschrot", "price": 0.75, "amount": 70, "liquid": false, "img": "/MyMixx/img/product/basis/09.png" },
+    { "name": "Amaranth-Pops", "price": 2.00, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/basis/10.png" },
+    { "name": "Cornflakes", "price": 1.17, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/basis/11.png" },
+    { "name": "Crunchy Müsli", "price": 1.29, "amount": 70, "liquid": false, "img": "/MyMixx/img/product/basis/12.png" },
+    { "name": "Geröstete Haferflakes", "price": 1.07, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/basis/13.png" }
+  ],
+  "fruechte": [
+    { "name": "Cranberries", "price": 0.40, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/fruechte/01.png" },
+    { "name": "Rosinen", "price": 0.24, "amount": 70, "liquid": false, "img": "/MyMixx/img/product/fruechte/02.png" },
+    { "name": "Goji-Beeren", "price": 0.87, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/fruechte/03.png" },
+    { "name": "Mangostückchen", "price": 0.67, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/fruechte/04.png" },
+    { "name": "Ananasstücke", "price": 0.60, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/fruechte/05.png" },
+    { "name": "Apfelringe", "price": 0.70, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/fruechte/06.png" },
+    { "name": "Bananenchips", "price": 0.28, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/fruechte/07.png" },
+    { "name": "Datteln", "price": 0.42, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/fruechte/08.png" },
+    { "name": "Feigen", "price": 0.45, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/fruechte/09.png" },
+    { "name": "Erdbeerscheiben", "price": 1.20, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/fruechte/10.png" },
+    { "name": "Heidelbeeren", "price": 0.73, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/fruechte/11.png" },
+    { "name": "Kirschen", "price": 0.67, "amount": 55, "liquid": false, "img": "/MyMixx/img/product/fruechte/12.png" },
+    { "name": "Aprikosen", "price": 0.40, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/fruechte/13.png" }
+  ],
+  "suess": [
+    { "name": "Dunkle Schokolade", "price": 0.52, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/suess/01.png" },
+    { "name": "Weiße Schokolade", "price": 0.51, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/suess/02.png" },
+    { "name": "Karamellstückchen", "price": 0.53, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/suess/03.png" },
+    { "name": "Kokoschips", "price": 0.47, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/suess/04.png" },
+    { "name": "Honig", "price": 0.72, "amount": 70, "liquid": true, "img": "/MyMixx/img/product/suess/05.png" },
+    { "name": "Ahornsirup", "price": 0.96, "amount": 70, "liquid": true, "img": "/MyMixx/img/product/suess/06.png" },
+    { "name": "Agavendicksaft", "price": 0.54, "amount": 70, "liquid": true, "img": "/MyMixx/img/product/suess/07.png" }
+  ],
+  "nuesse": [
+    { "name": "Mandeln", "price": 0.53, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/nuesse/01.png" },
+    { "name": "Walnüsse", "price": 0.60, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/nuesse/02.png" },
+    { "name": "Haselnüsse", "price": 0.56, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/nuesse/03.png" },
+    { "name": "Pistazien", "price": 1.10, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/nuesse/04.png" },
+    { "name": "Cashewkerne", "price": 0.64, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/nuesse/05.png" },
+    { "name": "Pekanüsse", "price": 0.67, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/nuesse/06.png" },
+    { "name": "Sonnenblumenkerne", "price": 0.25, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/nuesse/07.png" },
+    { "name": "Kürbiskerne", "price": 0.47, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/nuesse/12.png" },
+    { "name": "Chiasamen", "price": 0.70, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/nuesse/08.png" },
+    { "name": "Leinsamen", "price": 0.25, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/nuesse/09.png" },
+    { "name": "Hanfsamen", "price": 0.80, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/nuesse/10.png" },
+    { "name": "Sesamsamen", "price": 0.28, "amount": 65, "liquid": false, "img": "/MyMixx/img/product/nuesse/11.png" }
+  ],
+  "superfood": [
+    { "name": "Kakaonibs", "price": 0.90, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/01.png" },
+    { "name": "Matcha-Pulver", "price": 1.80, "amount": 20, "liquid": false, "img": "/MyMixx/img/product/superfood/02.png" },
+    { "name": "Maca-Pulver", "price": 1.10, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/03.png" },
+    { "name": "Baobab-Pulver", "price": 1.20, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/04.png" },
+    { "name": "Spirulina", "price": 2.30, "amount": 20, "liquid": false, "img": "/MyMixx/img/product/superfood/05.png" },
+    { "name": "Acai-Beeren", "price": 1.70, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/06.png" },
+    { "name": "Lucuma-Pulver", "price": 1.00, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/07.png" },
+    { "name": "Weizengraspulver", "price": 1.30, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/08.png" },
+    { "name": "Gojipulver", "price": 1.50, "amount": 35, "liquid": false, "img": "/MyMixx/img/product/superfood/09.png" },
+    { "name": "Kokosflocken", "price": 0.47, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/superfood/10.png" },
+    { "name": "Trockene Maulbeeren", "price": 0.73, "amount": 50, "liquid": false, "img": "/MyMixx/img/product/superfood/11.png" }
+  ],
+  "fluessigkeit": [
+    { "name": "Hafermilch", "price": 0.19, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/01.png" },
+    { "name": "Mandelmilch", "price": 0.23, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/02.png" },
+    { "name": "Kokosmilch", "price": 0.23, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/03.png" },
+    { "name": "Sojamilch", "price": 0.18, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/04.png" },
+    { "name": "Reismilch", "price": 0.19, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/05.png" },
+    { "name": "Vollmilch", "price": 0.16, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/06.png" },
+    { "name": "Joghurt", "price": 0.38, "amount": 80, "liquid": false, "img": "/MyMixx/img/product/fluessigkeit/07.png" },
+    { "name": "Wasser", "info": "(sehr weich und mikrofiltriert)", "price": 0.19, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/08.png" },
+    { "name": "Kokoswasser", "price": 0.21, "amount": 100, "liquid": true, "img": "/MyMixx/img/product/fluessigkeit/09.png" }
+  ]
+}

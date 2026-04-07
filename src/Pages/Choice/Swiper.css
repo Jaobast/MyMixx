@@ -1,0 +1,31 @@
+@import 'swiper/swiper-bundle.css';
+
+.swiper{
+    height: fit-content;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color: var(--yellow);
+}
+
+.swiper-pagination-bullet {
+    background: var(--yellow);
+    height: 15px;
+    width: 15px;
+    user-select: none;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .swiper-button-prev:hover, .swiper-button-next:hover{
+        color: var(--green);
+    }
+    .swiper-pagination-bullet:hover {
+        background: var(--green);
+    }
+}

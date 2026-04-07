@@ -1,0 +1,33 @@
+@font-face { font-family: 'Baloo'; src: url(../public/fonts/Baloo-Regular.ttf);}
+@font-face { font-family: 'Baloo-Bold'; src: url(../public/fonts/Baloo-Bold.ttf);}
+@font-face { font-family: 'Lilita'; src: url(../public/fonts/LilitaOne.ttf);}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+  --text: 18px;
+  --text-lg: 24px;
+
+  --yellow: #F2BB16;
+  --orange: #F36513;
+  --green: #9ABF11;
+  --blue: #22DDF2;
+
+  --card-height: 450px;
+}
+
+body{
+  font-family: 'Baloo';
+  color: black;
+  background-color: white;
+}
+
+button{
+  font-size: var(--text);
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 4px 10px 6px;
+  border-radius: 100px;
+}
