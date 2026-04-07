@@ -1,8 +1,10 @@
 .ProductCard{
-    border: 2px solid black;
+    border: 3px solid black;
+    background-color: white;
     border-radius: 32px;
     padding: 16px;
-    width: 280px;
+    width: calc(100vw - 110px);
+    max-width: 340px;
     height: fit-content;
     margin: 0 auto;
     display: flex; flex-direction: column;
@@ -44,7 +46,6 @@
     & .add, .delete{
         height: 40px;
         background-color: var(--green);
-        border: 3px solid black;
         font-family: 'Baloo-Bold';
         font-size: 20px;
         padding: 0 4px;
@@ -52,3 +53,6 @@
 
     & .delete{ background-color: var(--orange);}
 }
+
+
+.ProductCard.added{ background-color: var(--green);}

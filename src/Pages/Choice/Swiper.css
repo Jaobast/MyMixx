@@ -6,9 +6,14 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next{
-    color: var(--yellow);
+.swiper-horizontal{
+    & .swiper-button-prev, .swiper-button-next{
+        color: var(--yellow);
+        top: calc(50% - 30px);
+        margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    }
 }
+
 
 .swiper-pagination-bullet {
     background: var(--yellow);

@@ -37,7 +37,7 @@ function ProductCard({name, price, amount, img, liquid}: ProductCardProps) {
 
 
   return (
-    <div className="ProductCard">
+    <div className={added ? 'added ProductCard' : 'ProductCard'}>
         <h3>{name}</h3>
         <img src={img} alt={name} />
         <div className='info'>
@@ -53,7 +53,7 @@ function ProductCard({name, price, amount, img, liquid}: ProductCardProps) {
         <div className="button-container">
             <div className="portion">
                 <button className='minus' onClick={deletePortion}> - </button>
-                <p>{portion} Portion</p>
+                <p>{portion} {portion >1? "Portionen" : "Portion"}</p>
                 <button className='plus' onClick={addPortion}> + </button>
             </div>
             <button className={added ? 'delete' : 'add'} onClick={toggleProduct}>

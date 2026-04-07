@@ -7,8 +7,11 @@ import './Swiper.css'
 
 import products from '../../Components/Products.json'
 import ProductCard from '../../Components/ProductCard/ProductCard'
+import Pattern from '../../Components/Pattern/Pattern'
 
 const categories = ['basis', 'fruechte', 'suess', 'nuesse', 'superfood', 'fluessigkeit']
+
+const categoriesButton = ['Basis', 'Früchte', 'Süßigkeit', 'Nüsse', 'Superfood', 'Flüssigkeit']
 
 
 function Choice() {
@@ -25,15 +28,15 @@ function Choice() {
 
   return (
     <div className="Choice">
-      
+
       <div className="category">
-        {categories.map((cat) => (
+        {categories.map((cat, index) => (
           <button
             key={cat}
             className={category === cat ? 'active' : ''}
             onClick={() => changeCategory(cat)}
           >
-            {cat}
+            {categoriesButton[index]}
           </button>
         ))}
       </div>
@@ -67,6 +70,13 @@ function Choice() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <div className="button-bottom">
+        <button className='cart'>MyMixx</button>
+        <button className='next'>Weiter</button>
+      </div>
+
+      <Pattern/>
     </div>
   )
 }
