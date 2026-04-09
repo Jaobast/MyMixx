@@ -5,6 +5,7 @@ function Pattern() {
     <div className="Pattern">
         <img src="/MyMixx/svg/logo.svg" alt="logo" />
         <img src="/MyMixx/svg/logo.svg" alt="logo" />
+        <img src="/MyMixx/svg/logo.svg" alt="logo" />
     </div>
 )
 }

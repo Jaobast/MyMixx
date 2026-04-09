@@ -1,0 +1,135 @@
+.StartPage-Body{background-color: var(--green);}
+
+.StartPage{
+    padding: 60px 0 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: space-between;
+    background-color: var(--green);
+    height: 100svh;
+
+    & .logo{
+        width: 35%;
+    }
+
+    & .bottom-container, .text-container{
+        display: flex; flex-direction: column;
+        align-items: center;
+    }
+
+    & .bottom-container{ gap: 20px;}
+    & .text-container{ gap: 4px;}
+
+    & h1{
+        font-family: 'Baloo-Bold';
+        text-align: center;
+        line-height: 1;
+        max-width: 300px;
+    }
+
+    & p{
+        text-align: center;
+        max-width: 300px;
+    }
+
+    & .Pattern{
+        z-index: 1;
+    }
+
+    & button{
+        background-color: var(--yellow);
+        z-index: 5;
+    }
+}
+
+.Startpage .load{
+    position: relative;
+    & img{
+        position: absolute;
+        top: 0; left: 0;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+.card-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vw;
+}
+
+.card-container img {
+  position: absolute;
+  width: 40vw;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-duration: 1.5s;
+}
+
+.card01 {
+  z-index: 3;
+  animation-name: card-center;
+}
+
+.card02 {
+  z-index: 2;
+  animation-name: card-left;
+}
+
+.card03 {
+  z-index: 1;
+  animation-name: card-right;
+}
+
+@keyframes card-center {
+  from {
+    transform: scale(0.50) translateY(0);
+  }
+  to {
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes card-left {
+  from {
+    transform: scale(0.50) translateX(0) rotate(0deg);
+  }
+  to {
+    transform: scale(0.88) translateX(-60%) rotate(-10deg);
+  }
+}
+
+@keyframes card-right {
+  from {
+    transform: scale(0.50) translateX(0) rotate(0deg);
+  }
+  to {
+    transform: scale(0.88) translateX(60%) rotate(10deg);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px){
+    .card-container img {
+      width: 200px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1439px) {
+  .card-container img {
+    width: 200px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+}

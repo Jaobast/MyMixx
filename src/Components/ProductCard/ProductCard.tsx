@@ -6,10 +6,13 @@ type ProductCardProps= {
     price: number,
     amount: number,
     img: string,
-    liquid?: boolean
+    liquid?: boolean,
+    category: string,
+    onAdd: (item: { name: string; price: number; category: string }) => void
+    onRemove: (name: string) => void
 }
 
-function ProductCard({name, price, amount, img, liquid}: ProductCardProps) {
+function ProductCard({name, price, amount, img, liquid, onAdd, onRemove, category}: ProductCardProps) {
 
     const [portion, setPortion] = useState(1)
 
@@ -28,11 +31,13 @@ function ProductCard({name, price, amount, img, liquid}: ProductCardProps) {
     }
 
     function toggleProduct() {
-        if (!added) {
-            setAdded(true)
-        } else {
-            setAdded(false)
-        }
+    if (!added) {
+        setAdded(true)
+        onAdd({ name, price, category })
+    } else {
+        setAdded(false)
+        onRemove(name)
+    }
     }
 
 

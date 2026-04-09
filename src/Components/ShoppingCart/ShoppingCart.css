@@ -1,0 +1,91 @@
+.ShoppingCart{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100svh;
+
+    display: flex;
+    align-items: center; justify-content: center;
+    z-index: 10;
+
+    & .background{
+        position: absolute;
+        top: 0; left: 0;
+        width: 100vw;
+        height: 100svh;
+        background: rgba(255, 255, 255, 0.50);
+        backdrop-filter: blur(15px);
+    }
+
+    & .cart{
+        position: relative;
+        background-color: var(--green);
+        border: 3px solid black;
+        border-radius: 32px;
+        width: 80vw; max-width: 350px;
+        aspect-ratio: 3/4;
+        padding: 40px 20px 20px;
+
+        display: flex; flex-direction: column;
+        align-items: center;
+
+        overflow-y: auto;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        & .logo{width: 100px;}
+        z-index: 11;
+
+    }
+
+    & .total{
+        width: 100%;
+        font-size: 20px;
+        font-family: 'Baloo-Bold';
+        padding: 60px 0 30px;
+    }
+
+    & .everything{
+        width: 100%;
+        display: flex; flex-direction: column;
+        gap: 24px;
+        & .category-container{
+    
+            & .category-name{
+                font-size: 20px;
+                font-family: 'Baloo-Bold';
+            }
+    
+            & .product-container{
+                display: flex; flex-direction: column;
+                gap: 8px;
+                & .product{
+                    display: flex; justify-content: space-between;
+                    gap: 20px;
+                    padding-left: 20px;
+    
+                    & .info{
+                        display: flex; justify-content: space-between;
+                        width: 100%;
+                    }
+        
+                    & button{
+                        font-size: 14px;
+                        padding: 1px 6px;
+                        line-height: 1;
+                        background-color: var(--orange);
+                    }
+                }
+    
+            }
+    
+        }
+    }
+
+
+
+}
+
+.cart{z-index: 11;}
