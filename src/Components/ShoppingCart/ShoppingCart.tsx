@@ -25,7 +25,9 @@ function ShoppingCart({ onClose, cart, onRemove }: ShoppingCartProps) {
         <img className='logo' src="/MyMixx/svg/logo.svg" alt="logo" />
 
         <div className='total'>
-            <p>Total: {total} €</p>
+            <p>
+                {total == "0.00" ? "Füge Produkte hinzu :D" : `Total: ${total} €`}
+            </p>
         </div>
 
         <div className="everything">

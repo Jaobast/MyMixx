@@ -29,6 +29,16 @@ function Choice() {
     }, 300)
   }
 
+  function nextCategory() {
+    const thisIndex = categories.indexOf(category)
+    const nextIndex = thisIndex + 1
+    if (thisIndex < categories.length - 1) {
+      changeCategory(categories[nextIndex])
+    }
+  }
+
+  const isLast = categories.indexOf(category) === categories.length - 1
+
   type CartItem = {
     name: string
     price: number
@@ -76,13 +86,14 @@ function Choice() {
           clickable: true,
           dynamicBullets: true,
         }}
-        spaceBetween={16}
+        spaceBetween={30}
         loop={true}
         breakpoints={{
           0: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
-          1080: { slidesPerView: 4 },
-          2000: { slidesPerView: 5 }
+          1440: { slidesPerView: 3 },
+          1920: { slidesPerView: 4 },
+          3000: { slidesPerView: 5 }
         }}
       >
         {products[category as keyof typeof products].map((product) => (
@@ -107,7 +118,9 @@ function Choice() {
             cartOpen? "Zurück" : "MyMixx"
           }
         </button>
-        <button className='next'>Weiter</button>
+        <button className='next' onClick={nextCategory}>
+          {isLast ? 'Bestellen' : 'Weiter'}
+        </button>
       </div>
 
       <Pattern/>

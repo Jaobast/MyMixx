@@ -1,14 +1,14 @@
 .StartPage-Body{background-color: var(--green);}
 
 .StartPage{
-    padding: 60px 0 0;
+    padding: 10svh 0 ;
     display: flex; flex-direction: column;
     align-items: center; justify-content: space-between;
     background-color: var(--green);
     height: 100svh;
 
     & .logo{
-        width: 35%;
+        width: 150px;
     }
 
     & .bottom-container, .text-container{
@@ -120,16 +120,27 @@
     .card-container img {
       width: 200px;
     }
+
+    .StartPage .logo{
+        width: 250px;
+    }
 }
 
 /* Tablet */
-@media (max-width: 1439px) {
+@media (max-width: 1439px) and (min-width: 768px) {
   .card-container img {
     width: 200px;
   }
+
+  .StartPage .logo{
+        width: 250px;
+    }
 }
 
 /* Mobile */
 @media (max-width: 767px) {
+  .StartPage{
+    padding: 10svh 0 5svh;
+  }
 
 }

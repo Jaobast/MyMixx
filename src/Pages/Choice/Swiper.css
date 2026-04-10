@@ -11,6 +11,7 @@
         color: var(--yellow);
         top: calc(50% - 30px);
         margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+        border-radius: 100px;
     }
 }
 
@@ -32,5 +33,26 @@
     }
     .swiper-pagination-bullet:hover {
         background: var(--green);
+    }
+}
+
+.swiper {
+    height: fit-content;
+    padding: 0 30px 30px;
+    width: 100%;
+    
+    /* Desktop */
+    @media (min-width: 1440px) {
+        width: calc(100% - 200px);
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .swiper-horizontal .swiper-button-prev{
+        margin-left: -10px;
+    }
+    .swiper-horizontal .swiper-button-next{
+        margin-right: -10px;
     }
 }
